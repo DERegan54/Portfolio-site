@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './index.scss';
-import ResumeImg from "../../assets/images/Nov23-resume copy.pdf"
+import ResumeImg from "../../assets/images/10-23_resume.png"
 import Sidebar from '../Sidebar';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
