@@ -1,5 +1,4 @@
 html {
-  overflow-y: scroll;
   font-size: 52%;
 }
 
@@ -12,6 +11,4 @@ body {
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-y: scroll;
 }
-
