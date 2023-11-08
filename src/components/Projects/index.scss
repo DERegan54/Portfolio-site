@@ -1,19 +1,35 @@
-// .project-page {
-//     overflow: scroll;
-// }
+.title-container {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.project-container {
+    margin-top: -160px;
+}
 
 .MKL, 
 .puppy-match,
-.THD {
+.THD, 
+.Flutter {
     display: flex;
     width: 600px;
 }
 
 .lunchbox,
 .goldenRetriever,
-.THDLogo {
+.THDLogo,
+.butterfly {
     background-color: #fff;
     width: 200px;
+    height: 185px;
     margin-left: 90px;
     border-style: groove;
     border-width: 5px;
@@ -27,17 +43,18 @@ a {
 
 .MKL-title, 
 .puppyMatch-title,
-.THD-title {
+.THD-title,
+.Flutter-title {
     font-size: x-large;
     width: 250px;
 }
 
 .technologies {
+    margin-bottom: -80px;
     margin-left: -40px;
     font-size: large;
     width: 100px;
     color:#ffd700;
-
 }
 
 p {
