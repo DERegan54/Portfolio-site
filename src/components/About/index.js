@@ -44,19 +44,17 @@ const About = () => {
                 </h1>
                
                 <p className='thank-you'>Thank you for visiting!</p>
-                <p>I am a software developer with a passion for creating applications that are <br/>
-                   visually appealing and beneficial to people of all ages and walks of life.
+                <p> I am a software developer with a passion for creating applications that are visually appealing
+                    and beneficial to people of all ages and walks of life.
                 </p>
-                <p>Previously, I was a successful early childhood and family educator for over 15 years,<br />
-                   working in both  classrooms and studio settings.  It is during this time that I <br />
-                   developed many important skills, including, stellar verbal and written communication,<br />
-                   active listening, conflict resolution, time management, prioritization, and general<br/>
-                   professionalism.  It is also during my career as a teacher where I honed my ability to <br/>
-                   reflect upon my learning process, which has been invaluable since taking on the complex <br />
-                   and challenging task of transitioning into the technology sector.
+                <p> Previously, I was a successful early childhood and family educator for over 15 years, working in 
+                    both classrooms and studio settings. It is during this time that I developed many important skills, including, stellar
+                    verbal and written communication, active listening, conflict resolution, time management, prioritization, and general
+                    professionalism. It is also during my career as a teacher where I honed my ability to reflect upon my learning process, 
+                    which has been invaluable since taking on the complex and challenging task of transitioning into the technology sector.
                 </p>
-                <p>I am seeking opportunities to collaborate with other talented developers to create<br />
-                    innovative, attractive, and engaging applications for everyone.  
+                <p> I am seeking opportunities to collaborate with other talented developers to create innovative, attractive, and engaging 
+                    applications for everyone.  
                 </p>
                 <br/>
             </div>  
