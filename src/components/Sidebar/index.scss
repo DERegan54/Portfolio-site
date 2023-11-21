@@ -96,6 +96,12 @@
             }
         }
 
+        a.certifications-link {
+            &:after {
+                content: 'CERTIFICATIONS';
+            }
+        }
+
         a.contact-link {
             &:after {
                 content: 'CONTACT'

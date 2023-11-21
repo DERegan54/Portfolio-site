@@ -9,6 +9,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Footer from './components/Footer'
+import Certifications from './components/Certifications'
 
 function App() {
   
@@ -21,7 +22,9 @@ function App() {
         <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/projects" element={<Projects />} /> 
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/certifications" element={<Certifications/>} /> 
+
     </Routes>
     <div>
       <Footer />

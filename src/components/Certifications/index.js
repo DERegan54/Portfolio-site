@@ -1,32 +1,32 @@
 import { useState } from 'react'
 import './index.scss';
-import ResumeImg from "../../assets/images/10-23_Resume.png"
+import SpringboardImg from "../../assets/images/Springboard-cert.png"
 import Sidebar from '../Sidebar';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 
 
-const Resume = () => {
+const Certifications = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
 
     return (
         <>
-            <div className='container resume-page'>
+            <div className='container certifications-page'>
                 <Sidebar />
-                <div className='text-zone'>
-                    <h1 >
+                <div className='text-zone cert'>
+                    <h1 className='cert-h1'>
                         <AnimatedLetters 
                             letterClass={letterClass}
-                            strArray={["M","y", " ", "R", "e", "s", "u", "m", "e", " ", ":"]}
+                            strArray={["M","y", " ", "C", "e", "r", "t", "i", "f", "i", "c", "a", "t", "i", "o", "n", "s", " ", ":"]}
                             idx={15}
                         />
                     </h1>   
                 </div>
-                <img src={ResumeImg} className='ResumeImage' />
+                <img src={SpringboardImg} className='SpringboardImage' />
             </div>
             <Loader type='pacman' />
         </>    
     )    
 }
 
-export default Resume;
+export default Certifications;

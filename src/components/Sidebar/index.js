@@ -12,7 +12,8 @@ import {
     faBars,
     faClose,
     faFileLines,
-    faLaptopCode
+    faLaptopCode, 
+    faCertificate
   } from '@fortawesome/free-solid-svg-icons'
 
 const Sidebar = () => {
@@ -36,6 +37,9 @@ const Sidebar = () => {
                 </NavLink> */}
                 <NavLink exact='true' activeclassname='active' className='resume-link' to='/resume'> 
                     <FontAwesomeIcon icon={faFileLines} color='#4d4d4e' />
+                </NavLink>  
+                <NavLink exact='true' activeclassname='active' className='certifications-link' to='/certifications'> 
+                    <FontAwesomeIcon icon={faCertificate} color='#4d4d4e' />
                 </NavLink>  
                 <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact'> 
                     <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
