@@ -3,7 +3,7 @@ import './index.scss';
 import Loader from 'react-loaders';
 import Sidebar from '../Sidebar';
 import AnimatedLetters from '../AnimatedLetters';
-import Lunchbox from '../../assets/images/lunchbox.jpg';
+import Lunchbox from '../../assets/images/clipart-lunch.png';
 import GoldenRetriever from '../../assets/images/golden_retriever.png';
 import THDLogo from '../../assets/images/medium-transparent-logo.png';
 import FlutterLogo from '../../assets/images/blue_butterfly.jpeg';
@@ -38,6 +38,7 @@ const Projects = () => {
                                         <li>Express.JS</li>
                                         <li>React.JS</li>
                                         <li>PostgreSQL</li>
+                                        <li>SQL</li>
                                     </ul> 
                             </text>
                             <p>My Kids' Lunchbox is a dynamic web application created to help families manage what foods they put into children's lunchboxes.</p> 
